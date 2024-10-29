@@ -1517,11 +1517,24 @@ table > tr {
         transform: translatey(0)
         }
     }
+@keyframes slide-up-small {
+    0% {
+        transform: translateY(5px)
+        } to {
+        transform: translateY(0)
+        }
+    }
 .home-tile-fade-up-in {
     animation-duration: 1.5s;
     animation-fill-mode: both;
     animation-name: home-tile-slide-up, fadeIn;
     animation-timing-function: ease-in-out
+    }
+.slide-up-small {
+    animation-duration: 0.75s;
+    animation-fill-mode: both;
+    animation-name: slide-up-small;
+    animation-timing-function: cubic-bezier(0.02, 1.2, 0.2, 0.92)
     }
 .front-fadein-slow {
     animation: fadein 0.5s ease-in
