@@ -1449,6 +1449,11 @@ table > tr {
 [contenteditable] {
     -webkit-tap-highlight-color: transparent
     }
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0
+    }
 @keyframes pulse-ring {
     0% {
         transform: scale(.33)
