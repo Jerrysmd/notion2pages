@@ -991,6 +991,25 @@ body.dark .layout-content-with-divider {
         transform: translateX(0)
         }
     }
+@keyframes template-preview-column-focus-in {
+    0% {
+        filter: blur(6px);
+        opacity: 0
+        } to {
+        filter: blur(0);
+        opacity: 1
+        }
+    }
+@keyframes template-preview-column-focus-out {
+    0% {
+        filter: blur(.01);
+        opacity: 1
+        } to {
+        filter: blur(6px);
+        min-width: 0;
+        opacity: 0
+        }
+    }
 .quickActionContainer:empty {
     visibility: hidden
     }
