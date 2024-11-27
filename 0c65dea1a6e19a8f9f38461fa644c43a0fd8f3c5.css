@@ -1129,6 +1129,11 @@ body.dark .layout-content-with-divider {
     font-weight: 700;
     line-height: 25px
     }
+.tx-page-content-h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px
+    }
 .tx-page-content-h3 {
     font-size: 20px;
     font-weight: 600;
