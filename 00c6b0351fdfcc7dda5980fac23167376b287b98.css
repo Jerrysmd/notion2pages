@@ -921,28 +921,12 @@ body.dark .layout-content-with-divider {
     padding-top: 5px
     }
 .automation-list-item {
-    min-width: 50px
-    }
-.automation-list-item > * {
-    border-radius: 10px;
-    width: 100%
-    }
-.automation-list-item:not(.automation-list-item-narrow) {
+    min-width: 50px;
     padding-bottom: 8px
     }
-.automation-list-item-narrow > * {
-    border-radius: 0
-    }
-.automation-list-item-narrow:first-child > * {
-    border-start-end-radius: 6px;
-    border-start-start-radius: 6px
-    }
-.automation-list-item-narrow:last-child > * {
-    border-end-end-radius: 6px;
-    border-end-start-radius: 6px
-    }
-.automation-list-item-narrow + .automation-list-item-narrow {
-    margin-block-start: -1px
+.automation-list-item .automation-list-item-base-step {
+    border-radius: 10px;
+    width: 100%
     }
 .automation-list-item-drag-handle, .automation-list-item-icon {
     left: 0;
