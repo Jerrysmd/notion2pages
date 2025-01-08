@@ -1085,6 +1085,38 @@ body.dark .layout-content-with-divider {
     margin-bottom: 7px;
     margin-top: 13px
     }
+.experimental-margins .notion-text-block {
+    margin-bottom: 18px;
+    margin-top: 6px
+    }
+.experimental-margins.m-smalltext .notion-text-block {
+    margin-bottom: 11px;
+    margin-top: 5px
+    }
+.experimental-margins.m-serif .notion-text-block {
+    margin-bottom: 16px;
+    margin-top: 8px
+    }
+.experimental-margins.m-serif.m-smalltext .notion-text-block {
+    margin-bottom: 10px;
+    margin-top: 6px
+    }
+.experimental-margins .notion-bulleted_list-block {
+    margin-bottom: 6px;
+    margin-top: 2px
+    }
+.experimental-margins.m-smalltext .notion-bulleted_list-block {
+    margin-bottom: 7px;
+    margin-top: 1px
+    }
+.experimental-margins.m-serif .notion-bulleted_list-block {
+    margin-bottom: 4px;
+    margin-top: 4px
+    }
+.experimental-margins.m-serif.m-smalltext .notion-bulleted_list-block {
+    margin-bottom: 6px;
+    margin-top: 2px
+    }
 .tx-agate-10-regular {
     font-weight: 400
     }
