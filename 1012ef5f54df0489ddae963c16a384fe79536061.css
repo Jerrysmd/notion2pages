@@ -997,6 +997,9 @@ body.dark .layout-content-with-divider {
 .quickActionContainer:empty {
     visibility: hidden
     }
+.popup-origin-wrapper:has(svg) > * {
+    transform: translatez(0)
+    }
 .experimental-margins .notion-header-block {
     margin-bottom: 14px;
     margin-top: 18px
