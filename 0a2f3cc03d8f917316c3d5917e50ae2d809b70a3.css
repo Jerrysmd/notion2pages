@@ -1104,21 +1104,45 @@ body.dark .layout-content-with-divider {
     margin-bottom: 10px;
     margin-top: 6px
     }
-.experimental-margins .notion-bulleted_list-block {
+.experimental-margins .notion-child-list-block:not(:empty) {
     margin-bottom: 6px;
     margin-top: 2px
     }
-.experimental-margins.m-smalltext .notion-bulleted_list-block {
+.experimental-margins.m-smalltext .notion-child-list-block:not(:empty) {
     margin-bottom: 7px;
     margin-top: 1px
     }
-.experimental-margins.m-serif .notion-bulleted_list-block {
+.experimental-margins.m-serif .notion-child-list-block:not(:empty) {
     margin-bottom: 4px;
     margin-top: 4px
     }
-.experimental-margins.m-serif.m-smalltext .notion-bulleted_list-block {
+.experimental-margins.m-serif.m-smalltext .notion-child-list-block:not(:empty) {
     margin-bottom: 6px;
     margin-top: 2px
+    }
+.experimental-margins .notion-child-list-block:not(:empty).start-of-list {
+    margin-top: 6px
+    }
+.experimental-margins.m-smalltext .notion-child-list-block:not(:empty).start-of-list {
+    margin-top: 5px
+    }
+.experimental-margins.m-serif .notion-child-list-block:not(:empty).start-of-list {
+    margin-top: 8px
+    }
+.experimental-margins.m-serif.m-smalltext .notion-child-list-block:not(:empty).start-of-list {
+    margin-top: 6px
+    }
+.experimental-margins .notion-child-list-block:not(:empty).end-of-list {
+    margin-bottom: 18px
+    }
+.experimental-margins.m-smalltext .notion-child-list-block:not(:empty).end-of-list {
+    margin-bottom: 11px
+    }
+.experimental-margins.m-serif .notion-child-list-block:not(:empty).end-of-list {
+    margin-bottom: 16px
+    }
+.experimental-margins.m-serif.m-smalltext .notion-child-list-block:not(:empty).end-of-list {
+    margin-bottom: 12px
     }
 .tx-agate-10-regular {
     font-weight: 400
