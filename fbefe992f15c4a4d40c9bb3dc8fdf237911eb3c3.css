@@ -1004,89 +1004,185 @@ body.dark .layout-content-with-divider {
     margin-bottom: 14px;
     margin-top: 18px
     }
+.experimental-margins .notion-header-block h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0
+    }
 .experimental-margins.m-smalltext .notion-header-block {
     margin-bottom: 7px;
     margin-top: 17px
     }
+.experimental-margins.m-smalltext .notion-header-block h2 {
+    font-size: 24px;
+    line-height: 36px
+    }
 .experimental-margins.m-mobile .notion-header-block {
+    font-weight: 700;
     margin-bottom: 8px;
     margin-top: 16px
+    }
+.experimental-margins.m-mobile .notion-header-block h2 {
+    font-size: 22px;
+    line-height: 32px
     }
 .experimental-margins.m-serif .notion-header-block {
     margin-bottom: 12px;
     margin-top: 20px
     }
+.experimental-margins.m-serif .notion-header-block h2 {
+    font-size: 29px
+    }
 .experimental-margins.m-mono .notion-header-block {
     margin-bottom: 14px;
     margin-top: 18px
+    }
+.experimental-margins.m-mono .notion-header-block h2 {
+    font-size: 26px
     }
 .experimental-margins.m-serif.m-smalltext .notion-header-block {
     margin-bottom: 5px;
     margin-top: 19px
     }
+.experimental-margins.m-serif.m-smalltext .notion-header-block h2 {
+    font-size: 25px
+    }
 .experimental-margins.m-mono.m-smalltext .notion-header-block {
     margin-bottom: 7px;
     margin-top: 17px
     }
-.experimental-margins.m-mono.m-mobile .notion-header-block, .experimental-margins.m-serif.m-mobile .notion-header-block {
+.experimental-margins.m-mono.m-smalltext .notion-header-block h2 {
+    font-size: 23px
+    }
+.experimental-margins.m-serif.m-mobile .notion-header-block {
     margin-bottom: 6px;
     margin-top: 18px
+    }
+.experimental-margins.m-serif.m-mobile .notion-header-block h2 {
+    font-size: 23px
+    }
+.experimental-margins.m-mono.m-mobile .notion-header-block {
+    margin-bottom: 6px;
+    margin-top: 18px
+    }
+.experimental-margins.m-mono.m-mobile .notion-header-block h2 {
+    font-size: 21px
     }
 .experimental-margins .notion-sub_header-block {
     margin-bottom: 14px;
     margin-top: 16px
     }
+.experimental-margins .notion-sub_header-block h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0
+    }
 .experimental-margins.m-smalltext .notion-sub_header-block {
     margin-bottom: 5px;
     margin-top: 15px
     }
+.experimental-margins.m-smalltext .notion-sub_header-block h3 {
+    font-size: 19px;
+    line-height: 28px
+    }
 .experimental-margins.m-mobile .notion-sub_header-block {
+    font-weight: 700;
     margin-bottom: 10px;
     margin-top: 14px
+    }
+.experimental-margins.m-mobile .notion-sub_header-block h3 {
+    font-size: 18px;
+    line-height: 24px
     }
 .experimental-margins.m-serif .notion-sub_header-block {
     margin-bottom: 6px;
     margin-top: 18px
     }
+.experimental-margins.m-serif .notion-sub_header-block h3 {
+    font-size: 23px
+    }
 .experimental-margins.m-mono .notion-sub_header-block {
     margin-bottom: 8px;
     margin-top: 16px
+    }
+.experimental-margins.m-mono .notion-sub_header-block h3 {
+    font-size: 21px
     }
 .experimental-margins.m-serif.m-smalltext .notion-sub_header-block {
     margin-bottom: 3px;
     margin-top: 17px
     }
+.experimental-margins.m-serif.m-smalltext .notion-sub_header-block h3 {
+    font-size: 20px
+    }
 .experimental-margins.m-mono.m-smalltext .notion-sub_header-block {
     margin-bottom: 5px;
     margin-top: 15px
+    }
+.experimental-margins.m-mono.m-smalltext .notion-sub_header-block h3 {
+    font-size: 18px
     }
 .experimental-margins.m-serif.m-mobile .notion-sub_header-block {
     margin-bottom: 9px;
     margin-top: 15px
     }
-.experimental-margins .notion-sub_sub_header-block, .experimental-margins.m-mono.m-mobile .notion-sub_header-block {
+.experimental-margins.m-serif.m-mobile .notion-sub_header-block h3 {
+    font-size: 19px
+    }
+.experimental-margins.m-mono.m-mobile .notion-sub_header-block {
     margin-bottom: 10px;
     margin-top: 14px
+    }
+.experimental-margins.m-mono.m-mobile .notion-sub_header-block h3 {
+    font-size: 18px
+    }
+.experimental-margins .notion-sub_sub_header-block {
+    margin-bottom: 10px;
+    margin-top: 14px
+    }
+.experimental-margins .notion-sub_sub_header-block h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0
     }
 .experimental-margins.m-smalltext .notion-sub_sub_header-block {
     margin-bottom: 7px;
     margin-top: 13px
     }
+.experimental-margins.m-smalltext .notion-sub_sub_header-block h4 {
+    font-size: 14px;
+    line-height: 20px
+    }
 .experimental-margins.m-serif .notion-sub_sub_header-block {
     margin-bottom: 8px;
     margin-top: 16px
+    }
+.experimental-margins.m-serif .notion-sub_sub_header-block h4 {
+    font-size: 17px
     }
 .experimental-margins.m-mono .notion-sub_sub_header-block {
     margin-bottom: 14px;
     margin-top: 18px
     }
+.experimental-margins.m-mono .notion-sub_sub_header-block h4 {
+    font-size: 15px
+    }
 .experimental-margins.m-serif.m-smalltext .notion-sub_sub_header-block {
     margin-bottom: 8px;
     margin-top: 14px
     }
+.experimental-margins.m-serif.m-smalltext .notion-sub_sub_header-block h4 {
+    font-size: 15px
+    }
 .experimental-margins.m-mono.m-smalltext .notion-sub_sub_header-block {
     margin-bottom: 7px;
     margin-top: 13px
+    }
+.experimental-margins.m-mono.m-smalltext .notion-sub_sub_header-block h4 {
+    font-size: 14px
     }
 .experimental-margins .notion-text-block {
     margin-bottom: 18px;
@@ -1104,45 +1200,91 @@ body.dark .layout-content-with-divider {
     margin-bottom: 10px;
     margin-top: 6px
     }
-.experimental-margins .notion-child-list-block:not(:empty) {
+.experimental-margins .notion-synthetic-group-block:not(:empty) {
     margin-bottom: 6px;
     margin-top: 2px
     }
-.experimental-margins.m-smalltext .notion-child-list-block:not(:empty) {
+.experimental-margins.m-smalltext .notion-synthetic-group-block:not(:empty) {
     margin-bottom: 7px;
     margin-top: 1px
     }
-.experimental-margins.m-serif .notion-child-list-block:not(:empty) {
+.experimental-margins.m-serif .notion-synthetic-group-block:not(:empty) {
     margin-bottom: 4px;
     margin-top: 4px
     }
-.experimental-margins.m-serif.m-smalltext .notion-child-list-block:not(:empty) {
+.experimental-margins.m-serif.m-smalltext .notion-synthetic-group-block:not(:empty) {
     margin-bottom: 6px;
     margin-top: 2px
     }
-.experimental-margins .notion-child-list-block:not(:empty).start-of-list {
+.experimental-margins .notion-synthetic-group-block:not(:empty).start-of-list {
     margin-top: 6px
     }
-.experimental-margins.m-smalltext .notion-child-list-block:not(:empty).start-of-list {
+.experimental-margins.m-smalltext .notion-synthetic-group-block:not(:empty).start-of-list {
     margin-top: 5px
     }
-.experimental-margins.m-serif .notion-child-list-block:not(:empty).start-of-list {
+.experimental-margins.m-serif .notion-synthetic-group-block:not(:empty).start-of-list {
     margin-top: 8px
     }
-.experimental-margins.m-serif.m-smalltext .notion-child-list-block:not(:empty).start-of-list {
+.experimental-margins.m-serif.m-smalltext .notion-synthetic-group-block:not(:empty).start-of-list {
     margin-top: 6px
     }
-.experimental-margins .notion-child-list-block:not(:empty).end-of-list {
+.experimental-margins .notion-synthetic-group-block:not(:empty).end-of-list {
     margin-bottom: 18px
     }
-.experimental-margins.m-smalltext .notion-child-list-block:not(:empty).end-of-list {
+.experimental-margins.m-smalltext .notion-synthetic-group-block:not(:empty).end-of-list {
     margin-bottom: 11px
     }
-.experimental-margins.m-serif .notion-child-list-block:not(:empty).end-of-list {
+.experimental-margins.m-serif .notion-synthetic-group-block:not(:empty).end-of-list {
     margin-bottom: 16px
     }
-.experimental-margins.m-serif.m-smalltext .notion-child-list-block:not(:empty).end-of-list {
+.experimental-margins.m-serif.m-smalltext .notion-synthetic-group-block:not(:empty).end-of-list {
     margin-bottom: 12px
+    }
+.experimental-margins .notion-callout-block {
+    margin-bottom: 24px;
+    margin-top: 8px
+    }
+.experimental-margins.m-small-text .notion-callout-block {
+    margin-bottom: 16px
+    }
+.experimental-margins .notion-quote-block:not(:empty) {
+    margin-bottom: 12px;
+    margin-top: 4px
+    }
+.experimental-margins.m-small-text .notion-quote-block:not(:empty) {
+    margin-bottom: 4px
+    }
+.experimental-margins .notion-column_list-block {
+    margin-bottom: 24px;
+    margin-top: 0
+    }
+.experimental-margins.m-small-text .notion-column_list-block {
+    margin-bottom: 16px
+    }
+.experimental-margins .notion-divider-block {
+    margin-bottom: 16px;
+    margin-top: 7px
+    }
+.experimental-margins.m-small-text .notion-divider-block {
+    margin-bottom: 12px
+    }
+.experimental-margins .notion-caption-type-block {
+    margin-bottom: 24px;
+    margin-top: 8px
+    }
+.experimental-margins.m-smalltext .notion-caption-type-block {
+    margin-bottom: 16px;
+    margin-top: 8px
+    }
+.experimental-margins .notion-caption-type-block.caption-visible {
+    margin-bottom: 16px
+    }
+.experimental-margins.m-smalltext .notion-caption-type-block.caption-visible {
+    margin-bottom: 8px
+    }
+.experimental-margins .notion-block-caption {
+    margin-bottom: 3px;
+    margin-top: 9px
     }
 .tx-agate-10-regular {
     font-weight: 400
