@@ -1070,7 +1070,7 @@ body.dark .layout-content-with-divider {
     font-size: 21px
     }
 .experimental-margins .notion-sub_header-block {
-    margin-bottom: 14px;
+    margin-bottom: 8px;
     margin-top: 16px
     }
 .experimental-margins .notion-sub_header-block h3 {
@@ -1239,6 +1239,12 @@ body.dark .layout-content-with-divider {
     }
 .experimental-margins.m-serif.m-smalltext .notion-synthetic-group-block:not(:empty).end-of-list {
     margin-bottom: 12px
+    }
+.experimental-margins .notion-synthetic-group-block:not(:empty).start-of-content {
+    margin-top: 8px !important
+    }
+.experimental-margins .notion-synthetic-group-block:not(:empty).end-of-content {
+    margin-bottom: 0 !important
     }
 .experimental-margins .notion-callout-block {
     margin-bottom: 24px;
