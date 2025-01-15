@@ -1240,12 +1240,6 @@ body.dark .layout-content-with-divider {
 .experimental-margins.m-serif.m-smalltext .notion-synthetic-group-block:not(:empty).end-of-list {
     margin-bottom: 12px
     }
-.experimental-margins .notion-synthetic-group-block:not(:empty).start-of-content {
-    margin-top: 8px !important
-    }
-.experimental-margins .notion-synthetic-group-block:not(:empty).end-of-content {
-    margin-bottom: 0 !important
-    }
 .experimental-margins .notion-callout-block {
     margin-bottom: 24px;
     margin-top: 8px
@@ -1291,6 +1285,12 @@ body.dark .layout-content-with-divider {
 .experimental-margins .notion-block-caption {
     margin-bottom: 3px;
     margin-top: 9px
+    }
+.experimental-margins .notion-selectable:not(:empty).end-of-content {
+    margin-bottom: 0 !important
+    }
+.experimental-margins .notion-synthetic-group-block:not(:empty).start-of-content {
+    margin-top: 8px !important
     }
 .tx-agate-10-regular {
     font-weight: 400
