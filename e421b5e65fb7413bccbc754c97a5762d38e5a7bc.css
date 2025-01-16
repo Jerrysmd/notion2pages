@@ -1262,11 +1262,11 @@ body.dark .layout-content-with-divider {
     margin-bottom: 16px
     }
 .experimental-margins .notion-divider-block {
-    margin-bottom: 16px;
-    margin-top: 7px
+    margin-bottom: 9px;
+    margin-top: 0
     }
 .experimental-margins.m-small-text .notion-divider-block {
-    margin-bottom: 12px
+    margin-bottom: 5px
     }
 .experimental-margins .notion-caption-type-block {
     margin-bottom: 24px;
